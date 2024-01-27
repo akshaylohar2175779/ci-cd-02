@@ -19,6 +19,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 output application/json
 ---
 {
+	'Message': "Welcome to SCM poll version 1.0.0",
 	'output' : vars.num1 as Number + vars.num2 as Number
 }]]></ee:set-payload>
 			</ee:message>
