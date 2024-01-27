@@ -20,7 +20,8 @@ output application/json
 ---
 {
 	'Message': "Welcome to SCM poll version 1.0.0",
-	'output' : vars.num1 as Number + vars.num2 as Number
+	'output' : vars.num1 as Number + vars.num2 as Number,
+	'Status' : 'Success'
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
